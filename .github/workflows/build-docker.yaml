@@ -19,3 +19,5 @@ jobs:
       run: docker build . --file Dockerfile --tag cintiaamorim/python_api:$(date +%y-%m-%d_%H-%M)
     - name: Docker push
       run: docker push cintiaamorim/python_api:$(date +%y-%m-%d_%H-%M)
+
+      
